@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<openerp>
+    <data noupdate="1">
+
+      <record id="config_customer_ref_prefix" model="ir.config_parameter">
+        <field name="key">customer_ref_prefix</field>
+        <field name="value">CL</field>
+      </record>
+
+      <record id="config_customer_ref_sequence_number_digits" model="ir.config_parameter">
+        <field name="key">customer_ref_sequence_number_digits</field>
+        <field name="value">5</field>
+      </record>
+      
+    </data>
+</openerp>
